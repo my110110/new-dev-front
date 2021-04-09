@@ -1,21 +1,21 @@
 window.app = {
-    
-    /* 
+
+    /*
     portalIndexUrl: "http://localhost:8080/imooc-news/portal/index.html",           // 门户首页地址
     writerIndexUrl: "http://localhost:8080/imooc-news/writer/contentMng.html",      // 作家中心首页
     writerInfoUrl: "http://localhost:8080/imooc-news/writer/accountInfo.html",     // 用户信息完善页面
     userServerUrl: "http://192.168.1.5:8003",   // 用户服务后端接口地址
     */
 
-    portalIndexUrl: "http://www.imoocnews.com:9090/imooc-news/portal/index.html",           // 门户首页地址
-    writerLoginUrl: "http://writer.imoocnews.com:9090/imooc-news/writer/passport.html",      // 登录页面
-    writerIndexUrl: "http://writer.imoocnews.com:9090/imooc-news/writer/contentMng.html",      // 作家中心首页
-    writerInfoUrl: "http://writer.imoocnews.com:9090/imooc-news/writer/accountInfo.html",     // 用户信息完善页面
-    adminCenterUrl: "http://admin.imoocnews.com:9090/imooc-news/admin/contentReview.html",     // 运营管理平台主页
+    portalIndexUrl: "http://127.0.0.1:9090/imooc-news/portal/index.html",           // 门户首页地址
+    writerLoginUrl: "http://127.0.0.1:9090/imooc-news/writer/passport.html",      // 登录页面
+    writerIndexUrl: "http://127.0.0.1:9090/imooc-news/writer/contentMng.html",      // 作家中心首页
+    writerInfoUrl: "http://127.0.0.1:9090/imooc-news/writer/accountInfo.html",     // 用户信息完善页面
+    adminCenterUrl: "http://127.0.0.1:9090/imooc-news/admin/contentReview.html",     // 运营管理平台主页
 
-    userServerUrl: "http://user.imoocnews.com:8003",        // 用户服务后端接口地址
+    userServerUrl: "http://127.0.0.1:18080",        // 用户服务后端接口地址
     fsServerUrl: "http://files.imoocnews.com:8004",         // 文件服务后端接口地址
-    adminServerUrl: "http://admin.imoocnews.com:8005",      // 运营管理服务后端接口地址
+    adminServerUrl: "http://127.0.0.1:8005",      // 运营管理服务后端接口地址
     articleServerUrl: "http://article.imoocnews.com:8001",      // 文章服务后端接口地址
 
     /**
@@ -24,14 +24,14 @@ window.app = {
      *    ip：  192.168.1.111
      *    域名：   .imooc.com
      */
-    cookieDomain: ".imoocnews.com",  
+    cookieDomain: ".wft.com",
 
     // 判断用户是否登录
     judgeUserLoginStatus: function(pageVue) {
         var me = this;
         var utoken = me.getCookie("utoken");
         var uid = me.getCookie("uid");
-        
+
         // console.log("utoken=" + utoken);
         // console.log("uid=" + uid);
 
@@ -48,7 +48,7 @@ window.app = {
                 axios.post(
                         userServerUrl + '/user/getUserInfo?userId=' + uid
                         // ,
-                        // {}, 
+                        // {},
                         // {
                         //     headers: {
                         //         'headerUserId': uid,
@@ -161,7 +161,7 @@ window.app = {
 
     setCookie: function(name, value) {
         var Days = 365;
-        var exp = new Date(); 
+        var exp = new Date();
         exp.setTime(exp.getTime() + Days*24*60*60*1000);
         var cookieContent = name + "="+ encodeURIComponent (value) + ";path=/;";
         if (this.cookieDomain != null && this.cookieDomain != undefined && this.cookieDomain != '') {

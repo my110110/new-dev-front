@@ -11,18 +11,18 @@
 	<!-- <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css"> -->
 	<link rel="stylesheet" href="assets/css/form-elements.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-	
+
 	<link rel="shortcut icon" href="img/mu-toutiao.ico" />
 </head>
 
 <body>
 	<div class="top-content">
-		
+
 		<div class="inner-bg">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-7 text">
-						<h1><strong>慕课新闻</strong> 媒体号-作家中心</h1>
+						<h1><strong>影子联盟</strong> 晚芳町-作家中心</h1>
 						<div class="description">
 							<p>用户可以在此注册或登录，待完善信息后即可成为作家发文噢~</p>
 						</div>
@@ -48,10 +48,10 @@
 									<input type="text" name="smsCode" v-model="smsCode" placeholder="验证码..." class="form-last-name " id="smsCode" style="width: 70%;">
 									<button id="sendCode" type="submit" class="btn"
 										@click="sendCode"
-										style="height: 40px; 
-											line-height: 40px; 
-											font-size: 13px; 
-											padding: 0 10px; 
+										style="height: 40px;
+											line-height: 40px;
+											font-size: 13px;
+											padding: 0 10px;
 											background-color: #4bb550;">{{sendCodeValue}}</button>
 								</div>
 								<button type="button" class="btn" style="width: 100%;" @click="display">一键注册/登录</button>
@@ -79,7 +79,7 @@
 			el: "#passport",
 			data: {
 				mobile: "",
-				smsCode: "", 
+				smsCode: "",
 				sendCodeValue: "发送验证码",
 
 			},
@@ -127,7 +127,7 @@
 					.then(res => {
 						// debugger;
 						console.log(res.data);
-						
+
 						if (res.data.status == 200) {
 							// 注册登录成功，跳转到首页或者作家中心
 							var userStatus = res.data.data;
@@ -164,7 +164,7 @@
 					.then(res => {
 						// debugger;
 						console.log(res.data);
-						
+
 						if (res.data.status == 200) {
 							alert("短信已发送至您手机，请查看哟~~");
 						} else {
@@ -179,7 +179,7 @@
 						// 倒计时
 						me.doTimer(times);
 					});
-					
+
 				},
 				// 发送验证码的倒计时方法
 				doTimer(times) {
@@ -201,7 +201,7 @@
 				}
 			}
 		});
-	
+
 	</script>
 
 </body>

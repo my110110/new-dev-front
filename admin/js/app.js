@@ -1,24 +1,24 @@
 window.app = {
 
-    /* 
+    /*
     portalIndexUrl: "http://localhost:8080/imooc-news/portal/index.html",           // 门户首页地址
     writerIndexUrl: "http://localhost:8080/imooc-news/writer/contentMng.html",      // 作家中心首页
     writerInfoUrl: "http://localhost:8080/imooc-news/writer/accountInfo.html",     // 用户信息完善页面
     userServerUrl: "http://192.168.1.5:8003",   // 用户服务后端接口地址
     */
 
-    portalIndexUrl: "http://www.imoocnews.com:9090/imooc-news/portal/index.html",           // 门户首页地址
-    writerLoginUrl: "http://writer.imoocnews.com:9090/imooc-news/writer/passport.html",      // 登录页面
-    writerIndexUrl: "http://writer.imoocnews.com:9090/imooc-news/writer/contentMng.html",      // 作家中心首页
-    writerInfoUrl: "http://writer.imoocnews.com:9090/imooc-news/writer/accountInfo.html",     // 用户信息完善页面
-    
-    adminCenterUrl: "http://admin.imoocnews.com:9090/imooc-news/admin/contentReview.html",     // 运营管理平台主页
-    adminLoginUrl: "http://admin.imoocnews.com:9090/imooc-news/admin/login.html",        // admin后台登录页面
-    adminIndexUrl: "http://admin.imoocnews.com:9090/imooc-news/admin/userList.html",        // admin后台默认页面
-    
-    userServerUrl: "http://user.imoocnews.com:8003",        // 用户服务后端接口地址
+    portalIndexUrl: "http://127.0.0.1:9090/imooc-news/portal/index.html",           // 门户首页地址
+    writerLoginUrl: "http://127.0.0.1:9090/imooc-news/writer/passport.html",      // 登录页面
+    writerIndexUrl: "http://127.0.0.1:9090/imooc-news/writer/contentMng.html",      // 作家中心首页
+    writerInfoUrl: "http://127.0.0.1:9090/imooc-news/writer/accountInfo.html",     // 用户信息完善页面
+
+    adminCenterUrl: "http://127.0.0.1:9090/imooc-news/admin/contentReview.html",     // 运营管理平台主页
+    adminLoginUrl: "http://127.0.0.1:9090/imooc-news/admin/login.html",        // admin后台登录页面
+    adminIndexUrl: "http://127.0.0.1:9090/imooc-news/admin/userList.html",        // admin后台默认页面
+
+    userServerUrl: "http://127.0.0.1:18080",        // 用户服务后端接口地址
     fsServerUrl: "http://files.imoocnews.com:8004",         // 文件服务后端接口地址
-    adminServerUrl: "http://admin.imoocnews.com:8005",      // 运营管理服务后端接口地址
+    adminServerUrl: "http://127.0.0.1:8005",      // 运营管理服务后端接口地址
     articleServerUrl: "http://article.imoocnews.com:8001",      // 文章服务后端接口地址
 
     /**
@@ -27,7 +27,7 @@ window.app = {
      *    ip：  192.168.1.111
      *    域名：   .imooc.com
      */
-    cookieDomain: ".imoocnews.com", 
+    cookieDomain: ".wft.com",
 
     // 管理员注销退出登录
     doAdminLogout: function () {
@@ -46,7 +46,7 @@ window.app = {
                 }
             });
     },
-    
+
     // 判断管理员用户是否登录
     judgeAdminLogin: function(pageVue) {
         var me = this;
@@ -69,7 +69,7 @@ window.app = {
         var me = this;
         var utoken = me.getCookie("utoken");
         var uid = me.getCookie("uid");
-        
+
         // console.log("utoken=" + utoken);
         // console.log("uid=" + uid);
 
@@ -85,7 +85,7 @@ window.app = {
                 var userServerUrl = me.userServerUrl;
                 axios.post(
                         userServerUrl + '/user/getUserInfo?userId=' + uid,
-                        {}, 
+                        {},
                         {
                             headers: {
                                 'headerUserId': uid,
@@ -163,33 +163,33 @@ window.app = {
         sessionStorage.removeItem("globalUserInfo");
     },
 
-    isURLWithPort: function (url){ 
-        var strRegex = "^((https|http|ftp|rtsp|mms)?://)"  
-        + "?(([0-9a-z_!~*'().&=+$%-]+: )?[0-9a-z_!~*'().&=+$%-]+@)?" //ftp的user@  
-        + "(([0-9]{1,3}\.){3}[0-9]{1,3}" // IP形式的URL- 199.194.52.184  
-        + "|" // 允许IP和DOMAIN（域名） 
-        + "([0-9a-z_!~*'()-]+\.)*" // 域名- www.  
-        + "([0-9a-z][0-9a-z-]{0,61})?[0-9a-z]\." // 二级域名  
-        + "[a-z]{2,6})" // first level domain- .com or .museum  
-        + "(:[0-9]{1,4})?" // 端口- :80  
-        + "((/?)|" // a slash isn't required if there is no file name  
-        + "(/[0-9a-z_!~*'().;?:@&=+$,%#-]+)+/?)$";  
-        var re=new RegExp(strRegex);  
-    
-        if (re.test(url)){ 
-            return (true);  
-        }else{  
-            return (false);  
-        } 
+    isURLWithPort: function (url){
+        var strRegex = "^((https|http|ftp|rtsp|mms)?://)"
+        + "?(([0-9a-z_!~*'().&=+$%-]+: )?[0-9a-z_!~*'().&=+$%-]+@)?" //ftp的user@
+        + "(([0-9]{1,3}\.){3}[0-9]{1,3}" // IP形式的URL- 199.194.52.184
+        + "|" // 允许IP和DOMAIN（域名）
+        + "([0-9a-z_!~*'()-]+\.)*" // 域名- www.
+        + "([0-9a-z][0-9a-z-]{0,61})?[0-9a-z]\." // 二级域名
+        + "[a-z]{2,6})" // first level domain- .com or .museum
+        + "(:[0-9]{1,4})?" // 端口- :80
+        + "((/?)|" // a slash isn't required if there is no file name
+        + "(/[0-9a-z_!~*'().;?:@&=+$,%#-]+)+/?)$";
+        var re=new RegExp(strRegex);
+
+        if (re.test(url)){
+            return (true);
+        }else{
+            return (false);
+        }
     },
 
-    isURLSimple: function(str) { 
-        var RegUrl = new RegExp(); 
+    isURLSimple: function(str) {
+        var RegUrl = new RegExp();
         RegUrl.compile("^[A-Za-z]+://[A-Za-z0-9-_]+\\.[A-Za-z0-9-_%&\?\/.=]+$");
-        if (!RegUrl.test(str)) { 
-        return false; 
-        } 
-    return true; 
+        if (!RegUrl.test(str)) {
+        return false;
+        }
+    return true;
     },
 
     isEmpty: function (str) {
@@ -224,7 +224,7 @@ window.app = {
 
     setCookie: function(name, value) {
         var Days = 365;
-        var exp = new Date(); 
+        var exp = new Date();
         exp.setTime(exp.getTime() + Days*24*60*60*1000);
         var cookieContent = name + "="+ encodeURIComponent (value) + ";path=/;";
         if (this.cookieDomain != null && this.cookieDomain != undefined && this.cookieDomain != '') {
