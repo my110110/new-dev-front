@@ -13,10 +13,10 @@ window.app = {
     writerInfoUrl: "http://127.0.0.1:9090/imooc-news/writer/accountInfo.html",     // 用户信息完善页面
     adminCenterUrl: "http://127.0.0.1:9090/imooc-news/admin/contentReview.html",     // 运营管理平台主页
 
-    userServerUrl: "http://127.0.0.1:18080",        // 用户服务后端接口地址
-    fsServerUrl: "http://files.imoocnews.com:8004",         // 文件服务后端接口地址
+    userServerUrl: "http://127.0.0.1:10011",        // 用户服务后端接口地址
+    fsServerUrl: "http://127.0.0.1:8004",         // 文件服务后端接口地址
     adminServerUrl: "http://127.0.0.1:8005",      // 运营管理服务后端接口地址
-    articleServerUrl: "http://article.imoocnews.com:8001",      // 文章服务后端接口地址
+    articleServerUrl: "http://127.0.0.1:8001",      // 文章服务后端接口地址
 
     /**
      * 如果本地使用localhost测试可以不使用，如果是ip或者域名测试，cookieDomain改为对应的ip或者域名
