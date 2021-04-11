@@ -7,15 +7,15 @@ window.app = {
     userServerUrl: "http://192.168.1.5:8003",   // 用户服务后端接口地址
     */
 
-    portalIndexUrl: "http://127.0.0.1:9090/imooc-news/portal/index.html",           // 门户首页地址
-    writerLoginUrl: "http://127.0.0.1:9090/imooc-news/writer/passport.html",      // 登录页面
-    writerIndexUrl: "http://127.0.0.1:9090/imooc-news/writer/contentMng.html",      // 作家中心首页
-    writerInfoUrl: "http://127.0.0.1:9090/imooc-news/writer/accountInfo.html",     // 用户信息完善页面
-    adminCenterUrl: "http://127.0.0.1:9090/imooc-news/admin/contentReview.html",     // 运营管理平台主页
+    portalIndexUrl: "http://wft.cn:18080/portal/index.html",           // 门户首页地址
+    writerLoginUrl: "http://wft.cn:18080/writer/passport.html",      // 登录页面
+    writerIndexUrl: "http://wft.cn:18080/writer/contentMng.html",      // 作家中心首页
+    writerInfoUrl: "http://wft.cn:18080/writer/accountInfo.html",     // 用户信息完善页面
+    adminCenterUrl: "http://wft.cn:18080/admin/contentReview.html",     // 运营管理平台主页
 
-    userServerUrl: "http://127.0.0.1:10011",        // 用户服务后端接口地址
+    userServerUrl: "http://wft.cn:10011",        // 用户服务后端接口地址
     fsServerUrl: "http://files.imoocnews.com:8004",         // 文件服务后端接口地址
-    adminServerUrl: "http://127.0.0.1:8005",      // 运营管理服务后端接口地址
+    adminServerUrl: "http://wft.cn:8005",      // 运营管理服务后端接口地址
     articleServerUrl: "http://article.imoocnews.com:8001",      // 文章服务后端接口地址
 
     /**
@@ -24,7 +24,7 @@ window.app = {
      *    ip：  192.168.1.111
      *    域名：   .imooc.com
      */
-    cookieDomain: ".wft.com",
+    cookieDomain: "wft.cn",
 
     // 判断用户是否登录
     judgeUserLoginStatus: function(pageVue) {
