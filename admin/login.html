@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>慕课新闻 | 运营管理平台</title>
-		
+		<title>影子联盟 | 运营管理平台</title>
+
         <!-- CSS -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <!-- <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css"> -->
@@ -34,7 +34,7 @@
 							<video id="video" width="630px" height="370px" autoplay="autoplay" style="border-radius: 8px;" v-show="isFaceLogin"></video>
 							<canvas id="canvas" width="630px" height="370px" style="border-radius: 8px;" v-show="isFaceLogin"></canvas>
 						</div>
-						
+
                         <div class="col-sm-5 form-box">
 							<div class="form-top">
 								<div class="form-top-left">
@@ -76,15 +76,15 @@
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
         <script src="assets/js/scripts.js"></script>
-		
+
 		<script src="libs/vue.min.js"></script>
 		<script src="libs/axios.min.js"></script>
 		<script src="js/app.js"></script>
-		
+
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
 		<![endif]-->
-		
+
 		<script type="text/javascript">
 			var index = new Vue({
 				el: "#face-login",
@@ -141,7 +141,7 @@
 										alert(res.data.msg);
 									}
 								});
-							
+
 						} else {
 							var password = me.password;
 							if (password == null || password == undefined || password == "") {
@@ -160,7 +160,7 @@
 							.then(res => {
 								// debugger;
 								console.log(res.data);
-								
+
 								if (res.data.status == 200) {
 									// 登录成功，跳转到admin首页
 									window.location = app.adminIndexUrl;
@@ -190,7 +190,7 @@
 							audio: false
 						};
 						// 获得video摄像头
-						video = document.getElementById('video');     
+						video = document.getElementById('video');
 						let promise = navigator.mediaDevices.getUserMedia(constraints);
 						promise.then((mediaStream) => {
 							mediaStreamTrack=mediaStream.getVideoTracks()

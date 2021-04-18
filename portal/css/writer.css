@@ -41,7 +41,7 @@ body {
     color: #222;
     font-weight: 700;
     font-size: 22px;
-    margin-left: 140px;    
+    margin-left: 140px;
 }
 
 .pay-attention {
@@ -104,8 +104,8 @@ body {
     font-size: 20px;
     width: 40px;
     height: 46px;
-    color: #c9394a;
-    border-bottom: 2px solid #c9394a;
+    color: #5dc907;
+    border-bottom: 2px solid #5dc907;
 
     display: flex;
     flex-direction: column;
@@ -184,7 +184,7 @@ body {
     font-weight: 700;
     padding: 13px 0 9px 20px;
     color: #222;
-    border-top: 2px solid #ed4040;
+    border-top: 2px solid #5DC907;
     border-bottom: 1px solid #ddd;
 }
 

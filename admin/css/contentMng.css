@@ -33,13 +33,13 @@
 }
 
 .status-selected {
-    color: #c9394a;
+    color: #5dc907;
 }
 .status-default {
     color: #222;
 }
 .status-default:hover {
-    color: #c9394a;
+    color: #5dc907;
     cursor: pointer;
 }
 
@@ -73,7 +73,7 @@
     margin-right: 30px;
     padding: 5px 10px;
     color: white;
-    background-color: #c9394a;
+    background-color: #5dc907;
 }
 .search-ico-wrapper {
     margin-left: -38px;
@@ -84,7 +84,7 @@
     margin-right: 30px;
     width: 20px;
     height: 20px;
-    
+
     position: relative;
     top: 6px;
 }
@@ -94,12 +94,12 @@
 
 
 .input-date-picker{
-    padding-left: 10px; 
-    height: 25px; 
-    min-width: 162px; 
-    line-height: 25px; 
-    border: 1px solid #e6e6e6;  
-    background-color: #fff;  
+    padding-left: 10px;
+    height: 25px;
+    min-width: 162px;
+    line-height: 25px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
     border-radius: 2px;
 }
 
@@ -109,7 +109,7 @@
 .article-list-wrapper {
     margin-top: 15px;
     background-color: #fff;
-    padding: 20px 25px; 
+    padding: 20px 25px;
 }
 
 .every-article {
@@ -162,7 +162,7 @@
 .article-status {
     font-size: 12px;
     padding: 1px;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: center;

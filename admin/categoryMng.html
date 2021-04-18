@@ -36,7 +36,7 @@
 
 		<!-- 页面容器 -->
 		<div class="container">
-			
+
 			<div id="all-menus" class="all-menus">
 				<ul class="menu-list shadow">
 					<li class="">
@@ -72,10 +72,10 @@
 						</div>
 						<!-- <div class="single-line-enter" style="display: flex; flex-direction: row;">
 							<div class="words-label">是否开启</div>
-							
+
 							<input type="radio" name="sex" class="input-sex" v-model="category.isShow" value="1" style="align-self: center;"/>
 							<span style="align-self: center;margin-left: 5px;">开启</span>
-							
+
 							<input type="radio" name="sex" class="input-sex" v-model="category.isShow" value="0" style="margin-left: 20px;align-self: center;"/>
 							<span style="align-self: center;margin-left: 5px;">关闭</span>
 						</div> -->
@@ -91,14 +91,14 @@
 					<div class="user-list">
 
 						<table class="table-user" >
-							<tr class="head-th"> 
+							<tr class="head-th">
 								<th style="width: 25%; text-align: left; padding-left: 30px;color: #222;">文章分类</th>
 								<th style="width: 25%; text-align: left; color: #222;">显示效果</th>
 								<th style="width: 25%; text-align: right; padding-right: 10px;color: #222;">标签颜色</th>
 								<!-- <th style="width: 20%; text-align: right; padding-right: 10px;color: #222;">是否展示</th> -->
 								<th style="width: 25%; text-align: right; padding-right: 30px;color: #222;">操作</th>
 							</tr>
-							
+
 							<tr class="user-single-line" v-for="(cat, index) in catList" :key="index">
 								<td class="table-td-left" style="padding-left: 30px;">{{cat.name}}</td>
 								<td class="table-td-left" style="padding-right: 10px;">
@@ -170,14 +170,14 @@
 				oldName: "",
 				show: true,
 				// isShow: 1,
-				tagColor: "#c9394a"
+				tagColor: "#5dc907"
 			},
 
 			catList: []		// 分类列表
 		},
 		mounted() {
 			$('.color-picker-category').colorpicker({
-				color: '#c9394a',
+				color: '#5dc907',
 				colorSpace: 'rgb'
 			});
 
@@ -185,7 +185,7 @@
 		created() {
 			// 判断管理员是否登录
 			app.judgeAdminLogin(this);
-			
+
 			// 查询分类列表
 			this.getCatList();
 		},
@@ -219,7 +219,7 @@
 			// 管理员注销，退出登录
 			doLogout() {
 				app.doAdminLogout();
-			}, 
+			},
 			// 保存或更新
 			saveOrUpdate() {
 				var me = this;
@@ -276,11 +276,11 @@
 				this.category.oldName = "";
 				this.category.show = true;
 				// this.category.isShow = 1;
-				this.category.tagColor = "#c9394a"
+				this.category.tagColor = "#5dc907"
 
 				$('.color-picker-category').colorpicker().destroy();
 				$('.color-picker-category').colorpicker({
-					color: '#c9394a',
+					color: '#5dc907',
 					colorSpace: 'rgb'
 				});
 			},

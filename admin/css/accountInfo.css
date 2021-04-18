@@ -11,7 +11,7 @@
 }
 
 .title-word {
-    color: #c9394a;
+    color: #5dc907;
     font-size: 20px;
 }
 
@@ -60,7 +60,7 @@
 .user-face:hover .choose-face {
     opacity: 0.6;
 }
-.inputPic { 
+.inputPic {
     cursor: pointer;
     opacity: 0;
     width: 120px;
@@ -142,7 +142,7 @@
 }
 
 .submit-btn {
-    background-color: #c9394a;
+    background-color: #5dc907;
     color: white;
     font-weight: 400;
     font-size: 16px;

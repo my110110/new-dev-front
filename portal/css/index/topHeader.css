@@ -3,7 +3,7 @@
     width: 100%;
     min-width: 1220px;
     /* height: 80px; */
-    /* position: fixed; 
+    /* position: fixed;
     top: 0; */
     border-bottom: 1px solid #c9c9c9;
 
@@ -66,15 +66,15 @@
 }
 
 .single-selected {
-    border-bottom: 3px solid #c9394a;
+    border-bottom: 3px solid #5dc907;
     font-weight: bold;
-    color: #c9394a;
+    color: #5dc907;
 }
 
 .single-default:hover {
-    border-bottom: 3px solid #c9394a;
+    border-bottom: 3px solid #5dc907;
     font-weight: bold;
-    color: #c9394a;
+    color: #5dc907;
 }
 
 .white-header-left {
@@ -83,16 +83,16 @@
     padding: 0 10px;
     /* border-right: 1px solid #3a3a3a; */
     text-decoration: none;
-    
+
 }
 
 .white-header-left:hover {
-    color: #c9394a;
+    color: #5dc907;
 }
 
 .menu-selected {
     font-weight: bold;
-    color: #c9394a;
+    color: #5dc907;
 }
 
 .white-header-left-end {
@@ -110,7 +110,7 @@
 }
 
 .white-header-right:hover {
-    color: #c9394a;
+    color: #5dc907;
 }
 
 .white-header-right-start {
@@ -120,5 +120,5 @@
 }
 
 .white-header-right-start:hover {
-    color: #c9394a;
+    color: #5dc907;
 }

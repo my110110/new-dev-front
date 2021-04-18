@@ -63,7 +63,7 @@
 }
 
 .submit-btn {
-    background-color: #c9394a;
+    background-color: #5dc907;
     color: white;
     font-weight: 400;
     font-size: 16px;
@@ -107,7 +107,7 @@
     margin-right: 30px;
     width: 20px;
     height: 20px;
-    
+
     position: relative;
     top: 6px;
 }
@@ -117,12 +117,12 @@
 
 
 .input-date-picker{
-    padding-left: 10px; 
-    height: 25px; 
-    min-width: 162px; 
-    line-height: 25px; 
-    border: 1px solid #e6e6e6;  
-    background-color: #fff;  
+    padding-left: 10px;
+    height: 25px;
+    min-width: 162px;
+    line-height: 25px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
     border-radius: 2px;
 }
 
@@ -132,7 +132,7 @@
 .user-list-wrapper {
     margin-top: 15px;
     background-color: #fff;
-    padding: 20px 25px 50px 25px; 
+    padding: 20px 25px 50px 25px;
 }
 
 .table-user {

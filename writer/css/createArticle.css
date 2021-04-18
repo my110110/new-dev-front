@@ -98,7 +98,7 @@
     justify-content: center;
 }
 
-.inputPic { 
+.inputPic {
     cursor: pointer;
     opacity: 0;
     width: 158px;
@@ -175,10 +175,10 @@
 }
 
 .red-btn {
-    background-color: #c9394a;
+    background-color: #5dc907;
     color: white;
     outline: none;
-    border: 1px solid #c9394a;
+    border: 1px solid #5dc907;
     height: 40px;
     margin-right: 10px;
 

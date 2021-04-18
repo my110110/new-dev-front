@@ -10,7 +10,7 @@
 }
 
 .title-word {
-    color: #c9394a;
+    color: #5dc907;
     font-size: 15px;
 }
 
@@ -46,9 +46,9 @@
 }
 
 .publish-time {
-    color: gray; 
-    font-size: 14px; 
-    line-height: 23px; 
+    color: gray;
+    font-size: 14px;
+    line-height: 23px;
     margin-left: 10px;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .cover {
-    width: 175px; 
+    width: 175px;
     height: 110px;
     overflow: hidden;
     background-repeat: no-repeat;

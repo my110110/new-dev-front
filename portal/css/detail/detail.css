@@ -97,7 +97,7 @@
 }
 
 .writer-name:hover {
-    color: #c9394a;
+    color: #5dc907;
     cursor: pointer;
 }
 
@@ -110,7 +110,7 @@
 
 .imooc-num {
     color: #fff;
-    background-color: #c9394a;
+    background-color: #5dc907;
     padding: 1px 8px;
     border-radius: 8px;
 }

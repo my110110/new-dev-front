@@ -46,17 +46,17 @@ ol, ul {
 }
 
 .menu-item-select {
-    color: #c9394a;
+    color: #5dc907;
 }
 .menu-item-default {
     color: #666;
 }
 .menu-item-default:hover {
-    color: #c9394a;
+    color: #5dc907;
 }
 
 .shadow {
     /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05); */
     /* margin-bottom: 10px; */
-    border-bottom: 1px solid #e6e6e6;  
+    border-bottom: 1px solid #e6e6e6;
 }

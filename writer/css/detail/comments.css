@@ -31,7 +31,7 @@
 }
 
 .comments-counts {
-    color: #c9394a;
+    color: #5dc907;
     height: 100%;
     line-height: 48px;
     font-size: 14px;
@@ -44,7 +44,7 @@
 }
 
 .say-sth {
-    background-color: #c9394a;
+    background-color: #5dc907;
     outline: none;
     border: 0px;
     color: white;
@@ -120,17 +120,17 @@
 }
 
 .reply-wrapper:hover .reply-words {
-    color: #c9394a;
+    color: #5dc907;
 }
 
 .icon-reply {
-    width: 18px; 
+    width: 18px;
     height: 18px;
     content: url('../../img/icon-reply.png');
 }
 
 .reply-wrapper:hover .icon-reply {
-    color: #c9394a;
+    color: #5dc907;
     content: url('../../img/icon-reply-imooc.png');
 }
 
@@ -150,7 +150,7 @@
 
 .reply-btn {
     outline: none;
-    background-color: #c9394a;
+    background-color: #5dc907;
     color: white;
     font-weight: bold;
     width: 10%;

@@ -13,7 +13,7 @@ ol, ul {
 }
 
 .active {
-    background-color: #c9394a;
+    background-color: #5dc907;
     color: #fff;
 }
 
@@ -33,6 +33,6 @@ ol, ul {
     text-decoration: none;
 }
 .category-item:hover {
-    background-color: #c9394a;
+    background-color: #5dc907;
     color: #fff;
 }
