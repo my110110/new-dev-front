@@ -3,48 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="47b68734-725b-4001-a5e1-e4e926c6ef9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/categoryMng.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/categoryMng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/accountInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/accountInfo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/adminMng.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/adminMng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/blackList.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/blackList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/categoryMng.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/categoryMng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/commentMng.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/commentMng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/contentMng.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/contentMng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/createArticle.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/createArticle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/detail/comments.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/detail/comments.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/detail/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/detail/detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/friendLinks.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/friendLinks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/myFans.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/myFans.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/myFansCharts.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/myFansCharts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/userList.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/userList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/img/imooc-news-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/img/imooc-news-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/img/mu-toutiao.ico" beforeDir="false" afterPath="$PROJECT_DIR$/admin/img/mu-toutiao.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/css/detail/comments.css" beforeDir="false" afterPath="$PROJECT_DIR$/portal/css/detail/comments.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/css/detail/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/portal/css/detail/detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/css/index/articleCategory.css" beforeDir="false" afterPath="$PROJECT_DIR$/portal/css/index/articleCategory.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/css/index/beiAn.css" beforeDir="false" afterPath="$PROJECT_DIR$/portal/css/index/beiAn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/css/index/friendLinks.css" beforeDir="false" afterPath="$PROJECT_DIR$/portal/css/index/friendLinks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/css/index/hotNews.css" beforeDir="false" afterPath="$PROJECT_DIR$/portal/css/index/hotNews.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/css/index/topHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/portal/css/index/topHeader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/css/writer.css" beforeDir="false" afterPath="$PROJECT_DIR$/portal/css/writer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/img/imooc-news-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/portal/img/imooc-news-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/img/mu-toutiao.ico" beforeDir="false" afterPath="$PROJECT_DIR$/portal/img/mu-toutiao.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/accountInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/writer/accountInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/css/accountInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/writer/css/accountInfo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/css/commentMng.css" beforeDir="false" afterPath="$PROJECT_DIR$/writer/css/commentMng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/css/contentMng.css" beforeDir="false" afterPath="$PROJECT_DIR$/writer/css/contentMng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/css/createArticle.css" beforeDir="false" afterPath="$PROJECT_DIR$/writer/css/createArticle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/css/detail/comments.css" beforeDir="false" afterPath="$PROJECT_DIR$/writer/css/detail/comments.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/css/detail/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/writer/css/detail/detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/writer/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/css/myFans.css" beforeDir="false" afterPath="$PROJECT_DIR$/writer/css/myFans.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/css/myFansCharts.css" beforeDir="false" afterPath="$PROJECT_DIR$/writer/css/myFansCharts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/img/imooc-news-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/writer/img/imooc-news-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/img/mu-toutiao.ico" beforeDir="false" afterPath="$PROJECT_DIR$/writer/img/mu-toutiao.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writer/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/writer/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/portal/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/writer/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/writer/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="840">
               <caret line="56" column="117" selection-start-line="56" selection-start-column="117" selection-end-line="56" selection-end-column="117" />
             </state>
           </provider>
@@ -84,18 +45,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
               <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/assets/img/pic-mng.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -109,12 +65,18 @@
       <find>5dc907</find>
       <find>#c9394a</find>
       <find>#ed4040</find>
+      <find>wft.cn</find>
+      <find>self.wfting</find>
+      <find>18080</find>
     </findStrings>
     <replaceStrings>
       <replace>wft.cn</replace>
       <replace>#5dc907</replace>
       <replace />
       <replace>#5DC907</replace>
+      <replace>self.wfting</replace>
+      <replace>127.0.0.1</replace>
+      <replace>8080</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -213,18 +175,19 @@
       <updated>1618110543328</updated>
       <workItem from="1618110546087" duration="610000" />
       <workItem from="1618114435054" duration="2230000" />
-      <workItem from="1618713002078" duration="771000" />
+      <workItem from="1618713002078" duration="1566000" />
+      <workItem from="1618847450649" duration="419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3611000" />
+    <option name="totallyTimeSpent" value="4825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="781" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,7 +199,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3280116" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3280116" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -265,7 +228,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portal/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="840">
           <caret line="56" column="117" selection-start-line="56" selection-start-column="117" selection-end-line="56" selection-end-column="117" />
         </state>
       </provider>
@@ -284,15 +247,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/assets/img/pic-mng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/img/pic-mng.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

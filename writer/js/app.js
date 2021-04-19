@@ -7,16 +7,16 @@ window.app = {
     userServerUrl: "http://192.168.1.5:8003",   // 用户服务后端接口地址
     */
 
-    portalIndexUrl: "http://wft.cn:18080/portal/index.html",           // 门户首页地址
-    writerLoginUrl: "http://wft.cn:18080/writer/passport.html",      // 登录页面
-    writerIndexUrl: "http://wft.cn:18080/writer/contentMng.html",      // 作家中心首页
-    writerInfoUrl: "http://wft.cn:18080/writer/accountInfo.html",     // 用户信息完善页面
-    adminCenterUrl: "http://wft.cn:18080/admin/contentReview.html",     // 运营管理平台主页
+    portalIndexUrl: "http://127.0.0.1:8080/portal/index.html",           // 门户首页地址
+    writerLoginUrl: "http://127.0.0.1:8080/writer/passport.html",      // 登录页面
+    writerIndexUrl: "http://127.0.0.1:8080/writer/contentMng.html",      // 作家中心首页
+    writerInfoUrl: "http://127.0.0.1:8080/writer/accountInfo.html",     // 用户信息完善页面
+    adminCenterUrl: "http://127.0.0.1:8080/admin/contentReview.html",     // 运营管理平台主页
 
-    userServerUrl: "http://wft.cn:10011",        // 用户服务后端接口地址
-    fsServerUrl: "http://wft.cn:8004",         // 文件服务后端接口地址
-    adminServerUrl: "http://wft.cn:8005",      // 运营管理服务后端接口地址
-    articleServerUrl: "http://wft.cn:8001",      // 文章服务后端接口地址
+    userServerUrl: "http://127.0.0.1:10011",        // 用户服务后端接口地址
+    fsServerUrl: "http://127.0.0.1:8004",         // 文件服务后端接口地址
+    adminServerUrl: "http://127.0.0.1:8005",      // 运营管理服务后端接口地址
+    articleServerUrl: "http://127.0.0.1:8001",      // 文章服务后端接口地址
 
     /**
      * 如果本地使用localhost测试可以不使用，如果是ip或者域名测试，cookieDomain改为对应的ip或者域名
@@ -24,7 +24,7 @@ window.app = {
      *    ip：  192.168.1.111
      *    域名：   .imooc.com
      */
-    cookieDomain: "wft.cn",
+    cookieDomain: "127.0.0.1",
 
     // writer媒体中心，每个页面都需要在进入的时候判断有没有登录，如果没有，退出到登录页面
     judgeWriterLogin() {
