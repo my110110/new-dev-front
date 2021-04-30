@@ -14,9 +14,9 @@ window.app = {
     adminCenterUrl: "http://127.0.0.1:8080/admin/contentReview.html",     // 运营管理平台主页
 
     userServerUrl: "http://127.0.0.1:10011",        // 用户服务后端接口地址
-    fsServerUrl: "http://127.0.0.1:8004",         // 文件服务后端接口地址
-    adminServerUrl: "http://127.0.0.1:8005",      // 运营管理服务后端接口地址
-    articleServerUrl: "http://127.0.0.1:8001",      // 文章服务后端接口地址
+    fsServerUrl: "http://127.0.0.1:10015",         // 文件服务后端接口地址
+    adminServerUrl: "http://127.0.0.1:10012",      // 运营管理服务后端接口地址
+    articleServerUrl: "http://127.0.0.1:10013",      // 文章服务后端接口地址
 
     /**
      * 如果本地使用localhost测试可以不使用，如果是ip或者域名测试，cookieDomain改为对应的ip或者域名

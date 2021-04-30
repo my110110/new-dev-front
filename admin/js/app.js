@@ -17,8 +17,8 @@ window.app = {
     adminIndexUrl: "http://127.0.0.1:8080/admin/userList.html",        // admin后台默认页面
 
     userServerUrl: "http://127.0.0.1:10011",        // 用户服务后端接口地址
-    fsServerUrl: "http://files.imoocnews.com:8004",         // 文件服务后端接口地址
-    adminServerUrl: "http://127.0.0.1:8005",      // 运营管理服务后端接口地址
+    fsServerUrl: "http://127.0.0.1:10015",         // 文件服务后端接口地址
+    adminServerUrl: "http://127.0.0.1:10012",      // 运营管理服务后端接口地址
     articleServerUrl: "http://article.imoocnews.com:8001",      // 文章服务后端接口地址
 
     /**
